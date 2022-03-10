@@ -37,4 +37,8 @@ public class ItemRepository {
 	public void clearStore() {
 		store.clear();
 	}
+
+	public void remove(Long itemId) {
+		store.remove(itemId);
+	}
 }
